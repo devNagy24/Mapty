@@ -65,7 +65,7 @@ class Workout {
 
   // Pass in an array with an object inside
   _getWeatherIconUrl(weather) {
-    // Destructer array
+    // Destructor array
     const [weatherObj] = weather;
     // Getting weather code for icon
     const iconCode = weatherObj.icon;
